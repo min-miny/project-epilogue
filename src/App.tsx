@@ -1,12 +1,7 @@
-import AppRouter from './routes/AppRouter'
-// git branch test2
-import './App.css'
+import AppRouter from './routes/AppRouter';
 
-function App() {
+const App = (): React.JSX.Element => {
+  return <AppRouter />;
+};
 
-  return (
-    <AppRouter />
-  )
-}
-
-export default App
+export default App;
